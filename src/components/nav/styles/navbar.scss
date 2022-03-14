@@ -1,0 +1,13 @@
+.navbar {
+  position: fixed;
+  background-color: #303030;
+  width: 100vw;
+  color: #d3d3da;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0 10px;
+  &__toggle-btn{
+    z-index: 99999;
+  }
+}
