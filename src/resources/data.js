@@ -1,8 +1,9 @@
 import Index from "../pages/Index";
+import {FaHome} from 'react-icons/fa'
 export const path = [
   {
-    name: "index",
-    icon: null,
+    name: "Home",
+    icon: <FaHome/>,
     exact: true,
     href: "/",
     component: <Index/>,
