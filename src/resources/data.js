@@ -7,7 +7,7 @@ export const path = [
     name: "Home",
     icon: <FaHome/>,
     exact: true,
-    href: "/",
+    href: "/mdit",
     component: <Index/>,
     visible:true
   },
