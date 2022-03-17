@@ -53,9 +53,11 @@ const Index = () => {
               );
               if (!(index === -1)) {
                 alert(`${fileName} file already exist`);
+                return null
               }
               if (fileName === "") {
                 alert("Set a valid name");
+                return null
               }
               storage.updateStorage((values) => {
                 values.documents.push({ name: fileName, content: "" });
