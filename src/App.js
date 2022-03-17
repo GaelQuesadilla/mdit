@@ -7,11 +7,13 @@ function App() {
   return (
     <>
       <Navbar/>
+      <div id="app">
       <Routes>
         {path.map((el) => (
           <Route exact={el.exact} path={el.href} element={el.component} />
         ))}
       </Routes>
+      </div>
     </>
   );
 }

@@ -22,3 +22,12 @@
     }
   }
 }
+
+
+.unseen-link{
+  color: inherit;
+  &:link, &:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+}

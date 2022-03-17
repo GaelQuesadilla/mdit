@@ -1,5 +1,7 @@
 import Index from "../pages/Index";
-import {FaHome} from 'react-icons/fa'
+import DocView from "../pages/DocView";
+
+import {FaHome, FaFile} from 'react-icons/fa'
 export const path = [
   {
     name: "Home",
@@ -7,5 +9,14 @@ export const path = [
     exact: true,
     href: "/",
     component: <Index/>,
+    visible:true
+  },
+  {
+    name: "Documents",
+    icon: <FaFile/>,
+    exact: true,
+    href: "/docs/:fileName",
+    component: <DocView/>,
+    visible:false
   },
 ];

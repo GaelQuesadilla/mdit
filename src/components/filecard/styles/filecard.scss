@@ -1,0 +1,30 @@
+.filecard{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  &__card{
+    display: flex;
+    justify-content: center;
+    background-color: #3d404120;
+    color: #303030;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px 0;
+
+
+    &-content{
+      padding: 10px;
+      width: 50vw;
+      justify-content: center;
+      align-items: center;
+    }
+    &-icon{
+      font-size: 1.5em;
+    }
+  }
+
+}

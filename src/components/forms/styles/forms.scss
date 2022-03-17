@@ -1,0 +1,26 @@
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  &__label{
+    display: inline-block;
+    width: 100%;
+    align-self: center;
+  }
+  &__field{
+    width: 100%;
+    padding: 10px;
+    border-color: #3185f3;
+    border-radius: 1000px;
+    margin:  10px 5px;
+    &--submit {
+      width: 45%;
+      background-color: #3185f3;
+      min-width: 200px;
+      color: #eaeaea;
+    }
+    &--button {
+      width: 45%;
+      min-width: 200px;
+    }
+  }
+}

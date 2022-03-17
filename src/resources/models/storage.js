@@ -1,6 +1,6 @@
 export default class storageModel {
   constructor() {
-    this.storage_name = "test";
+    this.storage_name = "test01";
     this.storage = JSON.parse(localStorage.getItem(this.storage_name));
     if(!this.storage){
       this.clearStorage()
